@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	margin: 0;
+	padding: 5rem;
+	font-family: "Roboto", sans-serif;
+}
+
+header {
+	background-color: rgb(220, 220, 220); 
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0.625rem;
+	border-bottom: 1px solid lightgrey;
+	
+}
+
+.gl-logo {
+	margin: 0;
+	font-size: 1.5rem;
+	font-weight: normal;
+
+}
+
+
+.gl-logo a {
+	color: black;
+}
+
+.gl-logo a:hover {
+	color: black;
+}
+
+
+nav {
+	display: inline-block;
+}
+
+.right {
+	position: absolute;
+	right:1rem;
+	top: 10px;
+	font-size: 1.2rem;
+
+}
+
+a {
+	text-decoration:none;
+	color: rgb(138, 43, 226);
+	margin-right: 10px;
+}
+
+a:hover {
+	color: rgb(211, 115, 250);
+	text-decoration: underline;
+}
+
+.search {
+	margin-bottom: 2.5rem;
+}
+
+.search label {
+	display: block;
+	font-size: 1.3rem;
+}
+	
+
+.search input {
+	height: 1.875rem;
+	width: 25rem;
+	border-radius: 3px;
+	border: 1px solid lightgrey;
+	padding: 0 5px 0 8px;
+	font-size: 1.3rem;
+
+}
+
+
+
+.search .search-button {
+	height: 1.875rem;
+	width: auto;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+
+}
+
+.pages {
+	display: inline-block;
+	font-size: 0;
+}
+
+.page-button {
+	display: inline-block;
+	color: black;
+	border: 1px solid lightgrey;
+	padding: 3px 5px;
+	border-radius: 3px;
+}
+
+
+.page-results {
+	border: 1px solid lightgrey;
+	padding: 3px 5px;
+	text-align: center;
+	border-radius: 3px;
+
+
+}
+
+.page-button, .page-results {
+	font-size: 1.3rem;
+}
+
+.close-gap {
+	margin-right: 0;
+}
+
+.listing-results {
+	margin-top: 3rem;
+
+}
+
+.listings {
+	list-style: none;
+	font-size: 1.3rem;
+
+}
+
+.listing {
+	margin-bottom: 1rem;
+	color: grey;
+
+}
+
+.listing a {
+	color: blue;
+}
+
+.date {
+	margin-right: 1rem;
+}
+
+.location {
+
+}
