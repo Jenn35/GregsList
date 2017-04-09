@@ -67,6 +67,7 @@ a:hover {
 .search label {
 	display: block;
 	font-size: 1.3rem;
+	margin-bottom: 0.5rem;
 }
 	
 
@@ -88,6 +89,10 @@ a:hover {
 	border: 1px solid lightgrey;
 	border-radius: 3px;
 
+}
+
+.search-button {
+	vertical-align: bottom;
 }
 
 .pages {
@@ -129,6 +134,7 @@ a:hover {
 .listings {
 	list-style: none;
 	font-size: 1.3rem;
+	padding: 0;
 
 }
 
@@ -146,6 +152,4 @@ a:hover {
 	margin-right: 1rem;
 }
 
-.location {
 
-}
